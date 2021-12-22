@@ -1,4 +1,4 @@
-# 📘 Go - Golearn
+# 📘 Golearn
 
 # CLI
 
