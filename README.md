@@ -1,10 +1,10 @@
 # 📘 Golearn
 
-# Resources
+## Resources
 
 1. [golang-book](https://www.golang-book.com/books/intro)
 
-# CLI
+## CLI
 
 1. `godoc <package> [method]`
 
