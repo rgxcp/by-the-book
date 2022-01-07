@@ -2,7 +2,7 @@ package main
 
 // defined the same way as a struct, but uses `interface` keyword
 type Shape interface {
-	area() float64 // set of methods instead of fields (must have to implement `Shape` interface)
+	area() float64 // set of functions instead of fields (must have to implement `Shape` interface)
 }
 
 // an interface can be used in function argument
@@ -19,7 +19,7 @@ type MultiShape struct {
 	shapes []Shape
 }
 
-// turning `MultiShape` struct into a `Shape` by giving it an area method
+// turning `MultiShape` struct into a `Shape` by giving it an area function
 func (m *MultiShape) area() float64 {
 	var area float64
 	for _, s := range m.shapes {
